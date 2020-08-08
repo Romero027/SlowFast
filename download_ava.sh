@@ -4,11 +4,11 @@ echo "Downloading Videos"
 
 echo "Cutting Videos"
 
-./dataset/AVA/cut_videos.sh
+./dataset/AVA/cut_ava_videos.sh
 
 echo "Extracting frames"
 
-./dataset/AVA/extract_frames.sh
+./dataset/AVA/extract_ava_frames.sh
 
 echo "Downloading annotations"
 
